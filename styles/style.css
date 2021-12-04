@@ -6,6 +6,55 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+/* --------------
+   Header
+   ---------------*/
+   .header-body{
+       width: 100%;
+       height: 94px;
+       background-color: #562EFF;;
+   }
+   .header-body-items{
+       display: flex;
+       margin-left: 528px;
+       align-items: center;
+   }
+   .header-body-icon{
+       display: flex;
+       align-items: center;
+
+   }
+   .header-body-icon img{
+    width: 40.42px;
+    height: 51px;
+   }
+   .header-body-icon h3{
+       font-size: 24px;
+       color: #FFFFFF;
+       padding-left: 13px;
+   }
+   .header-body-menu ul{
+       
+   }
+   .header-body-menu li{
+       font-size: 16px;
+    display: inline;
+   }
+   .header-body-menu li a{
+    color: #FFFFFF;
+       text-decoration: none;
+   }
+   .header-body-menu .home{
+    padding-left: 500px;
+   }
+   .header-body-menu .about{
+       padding-left: 36px;
+       padding-right: 36px;
+   }
+   .header-body-menu .works{
+       padding-right: 16px;
+   }
+
 main{
     display: flex;
     flex-direction: column;
